@@ -1,0 +1,26 @@
+* {
+  font-family: 'Maven Pro', sans-serif;
+
+  /** recentar os espaçamentos padrão do navegador**/
+  margin:0;
+  padding:0;
+}
+
+  /** aplicar estilo ao elemento header**/
+  header{
+    background-color: aqua;
+    display: flex;
+  }
+
+   /** aplicar estilo ao elemento nav**/
+   nav{
+    background-color: orange;
+  }
+
+  /** dispor os elementos na forma horizontal**/
+/** no navegador**/
+ul{
+display: flex;
+
+}
+
