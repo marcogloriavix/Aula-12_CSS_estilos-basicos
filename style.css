@@ -10,6 +10,10 @@
   header{
     background-color: aqua;
     display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin-bottom: 12px;
+
   }
 
    /** aplicar estilo ao elemento nav**/
@@ -21,6 +25,12 @@
 /** no navegador**/
 ul{
 display: flex;
+align-items: center;
+height: 100%;
 
 }
 
+nav ul li{
+  list-style-type: none;
+  margin-left: 16px;
+}
